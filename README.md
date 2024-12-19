@@ -24,7 +24,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:  
    git clone https://github.com/rene3phillips/bsky_bot.git  
-   cd bsky-bot  
+   cd bsky_bot  
 
 2. Install the required dependencies:  
    pip3 install -r requirements.txt  
