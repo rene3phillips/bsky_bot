@@ -39,9 +39,9 @@ Before you begin, ensure you have the following installed:
 ## Customizing Posts
 Before running the bot, you can edit the posts in the Python files. Each file corresponds to a specific part of the bot's functionality:
 
-Edit main.py to change the time of posts.
-Edit post_image.py to modify image post content.
-Edit post_text.py to change text post content.
+Edit main.py to change the time of posts.  
+Edit post_image.py to modify image post content.  
+Edit post_text.py to change text post content.  
 Make sure to save the changes after editing these files.
 
 ## Running the Bot
