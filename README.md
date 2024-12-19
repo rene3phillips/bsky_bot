@@ -6,7 +6,7 @@ A bot designed to interact with the Bluesky social network (Bsky) using the AT P
 
 ## Features
 - Automates posts, likes, and follows.  
-- Interacts with the Bsky API for seamless integration.  
+- Interacts with the AT Protocol API for seamless integration.  
 - Provides customizable content.  
   
 ---
@@ -23,7 +23,7 @@ Before you begin, ensure you have the following installed:
 ## Installation
 
 1. Clone the repository:  
-   git clone https://github.com/rene3phillips/bsky-bot.git  
+   git clone https://github.com/rene3phillips/bsky_bot.git  
    cd bsky-bot  
 
 2. Install the required dependencies:  
