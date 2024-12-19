@@ -48,7 +48,7 @@ Make sure to save the changes after editing these files.
 Open the command prompt (or terminal on Mac).  
 
 Navigate to the project directory:  
-cd path\to\bsky-bot  
+cd path\to\bsky_bot  
 Replace path\to\bsky-bot with the actual path to your bot folder.  
 
 ## Run the bot:  
