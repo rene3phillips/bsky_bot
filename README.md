@@ -42,7 +42,7 @@ Before running the bot, you can edit the posts in the Python files. Each file co
 Edit main.py to change the time of posts and the feed generator URI.    
 Edit post_image.py to modify image post content.  
 Edit post_text.py to change text post content.  
-Place your own images in the images folder.
+Place your own images in the images folder.  
 Make sure to save the changes after editing these files.
 
 ## Running the Bot
