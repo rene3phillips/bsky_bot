@@ -1,1 +1,4 @@
 schedule
+Pillow
+python-dotenv
+atproto
