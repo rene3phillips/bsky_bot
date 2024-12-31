@@ -18,7 +18,6 @@ def follow_from_feed_generator(client, generator_uri, max_to_follow=5, preferred
         }, headers={'Accept-Language': preferred_languages})  # Specify preferred language for responses
 
         feed = data.feed  # Extract the list of posts from the feed
-        next_page = data.cursor  # Extract the cursor for pagination (if more posts are available)
 
         # Retrieve metadata about the feed generator
         feed_metadata = client.app.bsky.feed.get_feed_generator({
