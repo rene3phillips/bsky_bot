@@ -17,7 +17,6 @@ def load_content_from_json():
         with open(file_path, 'r', encoding='utf-8') as f:  # Specify UTF-8 encoding to read the file
             content_list = json.load(f)  # Load the content from the file
         
-        print(f"Loaded content: {content_list}")  # Debugging line to print the loaded content
         return content_list  # Return the loaded content
     except Exception as e:
         # If an error occurs during loading, print the error and return an empty list
