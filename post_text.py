@@ -24,7 +24,7 @@ def post_text(client):
     
     if not content_list:
         # If no content is loaded, print a message and return from the function
-        print("No content to post.")
+        print("\nNo content to post.")
         return
 
     try:
@@ -33,12 +33,12 @@ def post_text(client):
         
         # Send the post using the client object
         client.send_post(text=text_content)
-        print(f"Successfully posted: {text_content}")  # Print success message
+        print(f"\nSuccessfully posted: {text_content}")  # Print success message
 
         # Update the index to point to the next post, and reset if we've reached the end of the list
         current_index = (current_index + 1) % len(content_list)
 
     except Exception as e:
         # If an error occurs while posting the content, print the error message
-        print(f"Error posting content: {e}")
+        print(f"\nError posting content: {e}")
 

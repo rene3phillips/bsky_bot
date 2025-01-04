@@ -26,10 +26,10 @@ def follow_from_feed_generator(client, generator_uri, max_to_follow=5, preferred
 
         # Extract and display information about the feed generator
         view = feed_metadata.view
-        print(f"Feed Generator Name: {view.display_name}")  # Name of the feed generator
-        print(f"Creator DID: {view.creator}")  # Decentralized identifier (DID) of the generator creator
-        print(f"Avatar URL: {view.avatar}")  # URL of the feed generator's avatar image
-        print(f"Like Count: {view.like_count}")  # Number of likes for the feed generator
+        print(f"\nFeed Generator Name: {view.display_name}")  # Name of the feed generator
+        print(f"\nCreator DID: {view.creator}")  # Decentralized identifier (DID) of the generator creator
+        print(f"\nAvatar URL: {view.avatar}")  # URL of the feed generator's avatar image
+        print(f"\nLike Count: {view.like_count}\n")  # Number of likes for the feed generator
 
         # Initialize a counter to keep track of how many authors have been followed
         count = 0

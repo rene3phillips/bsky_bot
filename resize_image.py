@@ -23,7 +23,7 @@ def resize_image(input_path, output_filename, target_size_mb=1, folder_path="ima
 
     # If the image is already smaller than the target size, just return the original image
     if file_size <= target_size_mb:
-        print(f"Image is already {file_size:.2f} MB, which is under {target_size_mb} MB.")
+        print(f"\nImage is already {file_size:.2f} MB, which is under {target_size_mb} MB.")
         img.save(output_path)  # Save the image without resizing
         return output_path
 
@@ -45,6 +45,6 @@ def resize_image(input_path, output_filename, target_size_mb=1, folder_path="ima
             quality -= 5  # Decrease quality to compress further
 
     # Print out the final file size and the location where the image is saved
-    print(f"Image resized to {file_size:.2f} MB and saved as {output_path}")
+    print(f"\nImage resized to {file_size:.2f} MB and saved as {output_path}")
     return output_path
 

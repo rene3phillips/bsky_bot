@@ -31,12 +31,12 @@ def follow_with_log():
     log_activity("Followed authors from feed")  # Log the activity of following authors
 
 # Schedule tasks
-schedule.every().day.at("08:00").do(post_text_with_log)  
-schedule.every().day.at("08:01").do(post_image_with_log)  
-schedule.every().day.at("08:02").do(like_posts_with_log) 
-schedule.every().day.at("08:03").do(follow_with_log)  
+schedule.every().day.at("10:03").do(post_text_with_log)  
+schedule.every().day.at("10:04").do(post_image_with_log)  
+schedule.every().day.at("10:05").do(like_posts_with_log) 
+schedule.every().day.at("10:06").do(follow_with_log)  
 
-print("All tasks have been scheduled.")  # Print confirmation that all tasks are scheduled
+print("\nAll tasks have been scheduled.")  # Print confirmation that all tasks are scheduled
 
 wait_and_run()  # Keep the scheduler running in an infinite loop to execute tasks at their scheduled times
 
